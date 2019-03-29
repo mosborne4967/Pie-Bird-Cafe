@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	
+<head>
+	<!--
+	Author: Mary E. Osborne
+	Colors: 
+Artboard Export Assets/4x/Full Logo@4x-80.jpg
+	-->
+	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>PieBird Homepage</title>
+	<!-- TemplateEndEditable -->
+	<link href="../PieBird Home Styles.css" rel="stylesheet" type="text/css">
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+	<body>
+		<header>
+			<img src="../Artboard Export Assets/4x/4x/PieBird w lettering@4x-80.jpg" width="30%" height="60%" alt="PieBird Cafe"/>
+			<nav> 
+				<ul>
+					<li><a href="../PieBird Home.html">Home</a></li>
+					<li><a href="../PieBird About.html">About</a></li>
+					<li><a href="../PieBird Menu.html">Menu</a></li>
+					<li><a href="../PieBird Find Us.html">Find Us</a></li>
+					<li><a href="../PieBird Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+	<div id="container">
+	  <section id="leftcol">
+			<h1>Place Content Left</h1>
+				<p>Place Content Left</p>
+			<h2>Place Content Left</h2>
+				<p>Place Content Left</p>
+			<figure>
+				<img
+				<figcaption>picture content</figcaption>
+			</figure>
+		</section>
+
+		<section id="rightcol">
+			<h1>Place Content Right</h1>
+				<p>Place Content Right</p>
+					<ol>
+						<li>Right </li>
+					</ol>
+				<p>Place Content Right</p>
+					<ul>
+						<li> Right</li>
+					</ul>
+		</section>
+
+		<section id="fullcol">
+			<h1>Place Content Full</h1>
+				<p>Place Content Full</p>
+				<aside>Place Content Full</aside>
+		</section>
+	</div>
+	
+		<footer>
+		  <address>
+				Created by: Mary E. Osborne &#10038;
+				FBLA-PBL &#10038;
+				Website Design &#10038;
+				February 2019 All Rights Reserved &copy;
+		  </address>
+		</footer>
+
+</body>	
+
+</html>

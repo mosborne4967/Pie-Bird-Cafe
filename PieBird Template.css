@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 1366px){
+	
+/* Info 
+	Author: Mary E. Osborne
+	For: FBLA-PBL
+	Catagory: Website Design
+	Date: Feb 2019
+	All Rights Reserved Copyright
+
+	Color Scheme:
+	White: rgb(255,255,255)
+	Red: rgb(239,57,85)	
+	Pink: rgb(241,129,147)
+	Torquoise: rgb(135,207,190)
+*/
+
+/*Default Styles*/
+
+/* Body style */
+html{
+	background-color: rgb(135,207,190)
+}
+
+body{
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	margin: 0 auto;
+	font-family: PT Sans Narrow, Arial, sans-serif;
+}
+
+/* Header Styles */
+header{
+    background-color: white;
+    float: left;
+	color: rgb(241,129,147);
+}
+header img{
+    float: left;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+/*Navigation Styles */
+header nav ul {
+    list-style-type: none;
+    font-family: PT Sans, sans-serif;
+    float: right;
+}
+header nav ul li {
+    display: inline-block;
+    align-content: center;
+    padding-top: 37px;
+    padding-right: 35px;
+	padding-left: 20px;
+    font-size: x-large;
+    color: rgba(241,129,147,1.00);
+}
+nav a:link, nav a:visited{
+	color: rgb(239,57,85);
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover, nav a:active{
+	color: rgb(135,207,190);
+	text-decoration: underline;
+}
+
+/* Section Styles */
+section#leftcol{
+    background-color: rgb(241,129,147);
+    clear: left;
+    float: left;
+    width: 45%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+section#rightcol{
+    background-color: rgb(239,57,85);
+    float: right;
+    width: 45%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section#fullcol{
+    background-color: rgb(135,207,190);
+	clear: both;
+    margin: 0;
+    width: 98%;
+	padding: 10px;
+}
+
+
+/* Picture Styles */
+
+/* Aside Styles */
+
+/* Footer styles */
+footer{
+	background-color: rgb(255,255,255);
+	clear: left;
+	color: rgb(239,57,85);
+	text-align: center;
+	padding: 5px;
+}
